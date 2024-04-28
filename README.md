@@ -21,13 +21,13 @@ npm install
 
 ```json
 [
-  "bearer xxxxxxxx",
-  "bearer yyyyyyyy",
-  ...
+  "Bearer xxxxxxxx",
+  "Bearer yyyyyyyy"
 ]
 ```
 
-Replace `"bearer xxxxxxxx"`, `"bearer yyyyyyyy"`, etc. with your actual authentication tokens.
+Replace `"bearer xxxxxxxx"`, `"bearer yyyyyyyy"` etc. with your actual authentication tokens.
+every auth Bearer, don't forget to remove the comma (,) at the end of the json
 
 ## Obtaining Access Token
 
