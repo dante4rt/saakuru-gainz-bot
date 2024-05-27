@@ -29,7 +29,7 @@ async function claimTask(token, id) {
         Authorization: token,
       },
       data: {
-        questId: 'quest_1',
+        questId: 'quest_2',
         taskIds: [id],
       },
     });
@@ -49,7 +49,7 @@ async function getProfile(token) {
         Authorization: token,
       },
       data: {
-        questId: 'quest_1',
+        questId: 'quest_2',
       },
     });
 
